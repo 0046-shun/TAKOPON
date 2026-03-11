@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TAKOPON | Takoyaki Food Truck</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
   </head>
   <body>
     <div class="layout">
@@ -15,18 +15,17 @@
           <span></span>
         </button>
         <div class="sidebar-brand">
-          <img src="../img/file.svg" alt="TAKOPON logo" class="logo" />
-    
+          <img src="./img/file.svg" alt="TAKOPON logo" class="logo" />
+          <span class="brand-name">TAKOPON</span>
         </div>
       </div>
       <div class="sidebar-backdrop" aria-hidden="true"></div>
       <aside class="sidebar" aria-hidden="false">
         <div class="sidebar-brand sidebar-brand--desktop">
-          <img src="../img/file.svg" alt="TAKOPON logo" class="logo" />
+          <img src="./img/file.svg" alt="TAKOPON logo" class="logo" />
         </div>
         <nav class="sidebar-nav">
           <div class="nav-group">
-            
             <a href="#concept" data-i18n="nav.concept">コンセプト</a>
             <a href="#craft" data-i18n="nav.craft">こだわり</a>
           </div>
@@ -201,7 +200,7 @@
           </div>
           <div class="menu-grid">
             <div class="menu-card reveal">
-              <img class="menu-image" src="../img/menyu_1.jpg" alt="定番たこやき" />
+              <img class="menu-image" src="./img/menyu_1.jpg" alt="定番たこやき" />
               <div class="menu-body">
                 <h3 data-i18n="menu.item1.name">定番たこやき</h3>
                 <p data-i18n="menu.item1.desc">外カリ中トロの王道。</p>
@@ -209,7 +208,7 @@
               </div>
             </div>
             <div class="menu-card reveal">
-              <img class="menu-image" src="../img/menyu_2.jpg" alt="ねぎ塩たこやき" />
+              <img class="menu-image" src="./img/menyu_2.jpg" alt="ねぎ塩たこやき" />
               <div class="menu-body">
                 <h3 data-i18n="menu.item2.name">ねぎ塩たこやき</h3>
                 <p data-i18n="menu.item2.desc">香ばしいねぎと塩ダレ。</p>
@@ -287,6 +286,6 @@
       </main>
     </div>
 
-    <script src="./app.js"></script>
+    <script src="./src/app.js"></script>
   </body>
 </html>
