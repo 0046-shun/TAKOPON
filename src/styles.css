@@ -254,7 +254,7 @@ a {
   border: 1px solid #f2c100;
   aspect-ratio: 1 / 1;
   width: 100%;
-  height: 400px;
+  height: clamp(160px, 28vw, 260px);
   object-fit: cover;
 }
 
