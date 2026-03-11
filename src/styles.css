@@ -91,6 +91,13 @@ a {
   opacity: 1;
 }
 
+.nav-submenu {
+  display: grid;
+  gap: 6px;
+  padding-left: 12px;
+  border-left: 1px solid rgba(242, 193, 0, 0.5);
+}
+
 .sidebar-nav a {
   color: #f2c100;
   text-decoration: none;
