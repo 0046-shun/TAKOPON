@@ -1,6 +1,6 @@
 const translations = {
   ja: {
-    "nav.concept": "コンセプト",
+    "nav.concept": "お店情報",
     "nav.craft": "こだわり",
     "nav.newsGroup": "お知らせ",
     "nav.stalls": "出店情報",
@@ -14,16 +14,16 @@ const translations = {
     "hero.subtitle": "キッチンカーで世界へ。カリッと香ばしいたこやき体験を届けます。",
     "about.leadTitle": "TAKOPONについて",
     "about.lead":
-      "外はカリッと、中はトロッと。食材の旨みを引き出すたこやきをキッチンカーでお届けします。",
-    "about.concept.title": "コンセプト",
+      "うちのたこ焼きは、具材にこだわり、出汁をしっかり効かせた大阪スタイル。外はふんわり、中はとろっと仕上げたたこ焼きです。",
+    "about.concept.title": "お店情報",
     "about.concept.body":
       "できたてをその場で。香ばしい香りとライブ感を楽しめるたこやき体験。",
     "about.feature.title": "こだわり",
     "about.feature.body":
-      "生地・出汁・ソースのバランスにこだわり、毎日仕込みを行っています。",
-    "about.feature.item1": "香ばしさを引き出す高温焼き。",
-    "about.feature.item2": "食感のコントラストを大切に。",
-    "about.feature.item3": "仕込みの鮮度が味の決め手。",
+      "うちのたこ焼きは、具材にこだわり、出汁をしっかり効かせた大阪スタイル。外はふんわり、中はとろっと仕上げたたこ焼きです。",
+    "about.feature.item1": "出汁の香りが立つ配合。",
+    "about.feature.item2": "外ふわ・中とろの食感。",
+    "about.feature.item3": "具材の旨みを引き出す焼き上げ。",
     "about.contact.title": "連絡先",
     "about.contact.phoneLabel": "電話",
     "about.hours.title": "営業時間",
@@ -70,7 +70,7 @@ const translations = {
     "stalls.item2.note": "備考: 19:00まで出店予定です。",
   },
   en: {
-    "nav.concept": "Concept",
+    "nav.concept": "Shop Info",
     "nav.craft": "Craft",
     "nav.newsGroup": "News",
     "nav.stalls": "Stalls",
@@ -86,15 +86,15 @@ const translations = {
     "about.leadTitle": "About TAKOPON",
     "about.lead":
       "Crispy outside, creamy inside. We serve fresh takoyaki from our food truck.",
-    "about.concept.title": "Concept",
+    "about.concept.title": "Shop Info",
     "about.concept.body":
       "Freshly made on the spot with a lively food truck experience.",
     "about.feature.title": "Craft",
     "about.feature.body":
-      "Balanced batter, dashi, and sauce prepared fresh every day.",
-    "about.feature.item1": "High-heat grilling for smoky flavor.",
-    "about.feature.item2": "Texture contrast is everything.",
-    "about.feature.item3": "Fresh prep keeps the taste sharp.",
+      "We focus on quality ingredients and a rich dashi-forward Osaka style. Crisp outside, soft inside, each takoyaki is finished to a creamy center.",
+    "about.feature.item1": "Dashi aroma-forward blend.",
+    "about.feature.item2": "Crisp outside, creamy center.",
+    "about.feature.item3": "Heat-seared to bring out umami.",
     "about.contact.title": "Contact",
     "about.contact.phoneLabel": "Phone",
     "about.hours.title": "Hours",
